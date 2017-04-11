@@ -1,0 +1,841 @@
+[2017-04-06 17:31:28.964] [INFO] console - succeed load plugin:  activity.js
+succeed load plugin:  index.js
+
+[2017-04-06 17:31:28.980] [INFO] console - Express server listening on port 3000
+[2017-04-06 17:31:29.112] [INFO] console - db connected :yuantu
+[2017-04-06 17:32:57.950] [INFO] console - succeed load plugin:  activity.js
+succeed load plugin:  index.js
+
+[2017-04-06 17:32:57.961] [INFO] console - Express server listening on port 3000
+[2017-04-06 17:32:58.131] [INFO] console - db connected :yuantu
+[2017-04-06 17:33:00.479] [INFO] console - 验证是否登录:
+[2017-04-06 17:33:00.480] [INFO] console - getActivityList
+[2017-04-06 17:33:00.480] [INFO] console - session:
+[2017-04-06 17:33:00.480] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+[2017-04-06 17:33:04.853] [INFO] console - 验证是否登录:
+[2017-04-06 17:33:05.438] [INFO] console - 验证是否登录:
+[2017-04-06 17:33:05.439] [INFO] console - getTravelInfo
+[2017-04-06 17:33:05.439] [INFO] console - session:
+[2017-04-06 17:33:05.439] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: { name: 'iceyu', passWord: 'yt_1234567' } }
+[2017-04-06 17:33:07.167] [INFO] console - 验证是否登录:
+[2017-04-06 17:33:07.167] [INFO] console - getActivityList
+[2017-04-06 17:33:07.168] [INFO] console - session:
+[2017-04-06 17:33:07.168] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: { name: 'iceyu', passWord: 'yt_1234567' } }
+[2017-04-06 17:33:13.080] [INFO] console - 验证是否登录:
+[2017-04-06 17:33:13.080] [INFO] console - getUserList
+[2017-04-06 17:33:13.081] [INFO] console - session:
+[2017-04-06 17:33:13.081] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: { name: 'iceyu', passWord: 'yt_1234567' } }
+[2017-04-06 17:33:15.925] [INFO] console - 验证是否登录:
+[2017-04-06 17:33:15.925] [INFO] console - getTravelInfo
+[2017-04-06 17:33:15.925] [INFO] console - session:
+[2017-04-06 17:33:15.926] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: { name: 'iceyu', passWord: 'yt_1234567' } }
+[2017-04-06 17:33:21.528] [INFO] console - succeed load plugin:  activity.js
+succeed load plugin:  index.js
+
+[2017-04-06 17:33:21.538] [INFO] console - Express server listening on port 3000
+[2017-04-06 17:33:21.668] [INFO] console - db connected :yuantu
+[2017-04-06 17:33:24.603] [INFO] console - 验证是否登录:
+[2017-04-06 17:33:24.603] [INFO] console - getTravelInfo
+[2017-04-06 17:33:24.603] [INFO] console - session:
+[2017-04-06 17:33:24.603] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+[2017-04-06 17:33:28.916] [INFO] console - 验证是否登录:
+[2017-04-06 17:33:29.407] [INFO] console - 验证是否登录:
+[2017-04-06 17:33:29.407] [INFO] console - getTravelInfo
+[2017-04-06 17:33:29.407] [INFO] console - session:
+[2017-04-06 17:33:29.407] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: { name: 'iceyu', passWord: 'yt_1234567' } }
+[2017-04-06 17:33:32.264] [INFO] console - 验证是否登录:
+[2017-04-06 17:33:32.264] [INFO] console - getActivityList
+[2017-04-06 17:33:32.264] [INFO] console - session:
+[2017-04-06 17:33:32.264] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: { name: 'iceyu', passWord: 'yt_1234567' } }
+[2017-04-06 17:33:37.797] [INFO] console - 验证是否登录:
+[2017-04-06 17:33:37.798] [INFO] console - getTravelInfo
+[2017-04-06 17:33:37.798] [INFO] console - session:
+[2017-04-06 17:33:37.798] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: { name: 'iceyu', passWord: 'yt_1234567' } }
+[2017-04-06 17:33:39.834] [INFO] console - 验证是否登录:
+[2017-04-06 17:33:39.834] [INFO] console - getUserList
+[2017-04-06 17:33:39.835] [INFO] console - session:
+[2017-04-06 17:33:39.835] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: { name: 'iceyu', passWord: 'yt_1234567' } }
+[2017-04-06 17:33:43.779] [INFO] console - 验证是否登录:
+[2017-04-06 17:33:43.779] [INFO] console - getAllOrdersList
+[2017-04-06 17:33:43.779] [INFO] console - session:
+[2017-04-06 17:33:43.780] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: { name: 'iceyu', passWord: 'yt_1234567' } }
+[2017-04-06 17:33:45.315] [INFO] console - 验证是否登录:
+[2017-04-06 17:33:45.315] [INFO] console - goodsList
+[2017-04-06 17:33:45.315] [INFO] console - session:
+[2017-04-06 17:33:45.315] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: { name: 'iceyu', passWord: 'yt_1234567' } }
+[2017-04-06 17:33:47.247] [INFO] console - 验证是否登录:
+[2017-04-06 17:33:47.248] [INFO] console - getGuideList
+[2017-04-06 17:33:47.248] [INFO] console - session:
+[2017-04-06 17:33:47.248] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: { name: 'iceyu', passWord: 'yt_1234567' } }
+[2017-04-06 17:33:48.776] [INFO] console - 验证是否登录:
+[2017-04-06 17:33:48.776] [INFO] console - getUserList
+[2017-04-06 17:33:48.776] [INFO] console - session:
+[2017-04-06 17:33:48.777] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: { name: 'iceyu', passWord: 'yt_1234567' } }
+[2017-04-06 17:35:45.262] [INFO] console - 验证是否登录:
+[2017-04-06 17:35:45.262] [INFO] console - getUserList
+[2017-04-06 17:35:45.263] [INFO] console - session:
+[2017-04-06 17:35:45.263] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+[2017-04-06 17:35:46.935] [INFO] console - 验证是否登录:
+[2017-04-06 17:35:47.381] [INFO] console - 验证是否登录:
+[2017-04-06 17:35:47.382] [INFO] console - getTravelInfo
+[2017-04-06 17:35:47.384] [INFO] console - session:
+[2017-04-06 17:35:47.384] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: { name: 'iceyu', passWord: 'yt_1234567' } }
+[2017-04-06 17:35:48.670] [INFO] console - 验证是否登录:
+[2017-04-06 17:35:48.670] [INFO] console - getActivityList
+[2017-04-06 17:35:48.670] [INFO] console - session:
+[2017-04-06 17:35:48.670] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: { name: 'iceyu', passWord: 'yt_1234567' } }
+[2017-04-06 17:35:53.486] [INFO] console - 验证是否登录:
+[2017-04-06 17:35:53.486] [INFO] console - getTravelInfo
+[2017-04-06 17:35:53.486] [INFO] console - session:
+[2017-04-06 17:35:53.487] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: { name: 'iceyu', passWord: 'yt_1234567' } }
+[2017-04-06 17:35:54.820] [INFO] console - 验证是否登录:
+[2017-04-06 17:35:54.820] [INFO] console - getUserList
+[2017-04-06 17:35:54.820] [INFO] console - session:
+[2017-04-06 17:35:54.821] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: { name: 'iceyu', passWord: 'yt_1234567' } }
+[2017-04-06 17:35:56.267] [INFO] console - 验证是否登录:
+[2017-04-06 17:35:56.268] [INFO] console - getAllOrdersList
+[2017-04-06 17:35:56.268] [INFO] console - session:
+[2017-04-06 17:35:56.268] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: { name: 'iceyu', passWord: 'yt_1234567' } }
+[2017-04-06 17:35:58.020] [INFO] console - 验证是否登录:
+[2017-04-06 17:35:58.022] [INFO] console - getAllOrdersList
+[2017-04-06 17:35:58.022] [INFO] console - session:
+[2017-04-06 17:35:58.022] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: { name: 'iceyu', passWord: 'yt_1234567' } }
+[2017-04-06 17:36:01.960] [INFO] console - 验证是否登录:
+[2017-04-06 17:36:01.960] [INFO] console - getAllOrdersList
+[2017-04-06 17:36:01.961] [INFO] console - session:
+[2017-04-06 17:36:01.961] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+[2017-04-06 17:36:09.003] [INFO] console - 验证是否登录:
+[2017-04-06 17:36:09.426] [INFO] console - 验证是否登录:
+[2017-04-06 17:36:09.426] [INFO] console - getTravelInfo
+[2017-04-06 17:36:09.426] [INFO] console - session:
+[2017-04-06 17:36:09.426] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: { name: 'iceyu', passWord: 'yt_1234567' } }
+[2017-04-06 17:36:10.904] [INFO] console - 验证是否登录:
+[2017-04-06 17:36:10.904] [INFO] console - getActivityList
+[2017-04-06 17:36:10.905] [INFO] console - session:
+[2017-04-06 17:36:10.905] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: { name: 'iceyu', passWord: 'yt_1234567' } }
+[2017-04-06 17:36:15.491] [INFO] console - 验证是否登录:
+[2017-04-06 17:36:15.491] [INFO] console - getAllOrdersList
+[2017-04-06 17:36:15.491] [INFO] console - session:
+[2017-04-06 17:36:15.491] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: { name: 'iceyu', passWord: 'yt_1234567' } }
+[2017-04-06 17:36:17.736] [INFO] console - 验证是否登录:
+[2017-04-06 17:36:17.736] [INFO] console - getAllOrdersList
+[2017-04-06 17:36:17.736] [INFO] console - session:
+[2017-04-06 17:36:17.736] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: { name: 'iceyu', passWord: 'yt_1234567' } }
+[2017-04-06 17:36:26.306] [INFO] console - 验证是否登录:
+[2017-04-06 17:36:26.306] [INFO] console - getAllOrdersList
+[2017-04-06 17:36:26.307] [INFO] console - session:
+[2017-04-06 17:36:26.307] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: { name: 'iceyu', passWord: 'yt_1234567' } }
+[2017-04-06 17:36:28.696] [INFO] console - 验证是否登录:
+[2017-04-06 17:36:28.696] [INFO] console - getAllOrdersList
+[2017-04-06 17:36:28.697] [INFO] console - session:
+[2017-04-06 17:36:28.697] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: { name: 'iceyu', passWord: 'yt_1234567' } }
+[2017-04-06 17:36:30.217] [INFO] console - 验证是否登录:
+[2017-04-06 17:36:30.217] [INFO] console - getUserList
+[2017-04-06 17:36:30.217] [INFO] console - session:
+[2017-04-06 17:36:30.217] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: { name: 'iceyu', passWord: 'yt_1234567' } }
+[2017-04-06 17:36:32.363] [INFO] console - 验证是否登录:
+[2017-04-06 17:36:32.363] [INFO] console - getTravelInfo
+[2017-04-06 17:36:32.363] [INFO] console - session:
+[2017-04-06 17:36:32.363] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: { name: 'iceyu', passWord: 'yt_1234567' } }
+[2017-04-06 17:36:42.791] [INFO] console - 验证是否登录:
+[2017-04-06 17:36:42.791] [INFO] console - getTravelInfo
+[2017-04-06 17:36:42.792] [INFO] console - session:
+[2017-04-06 17:36:42.792] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+[2017-04-06 17:43:32.303] [INFO] console - succeed load plugin:  activity.js
+succeed load plugin:  index.js
+
+[2017-04-06 17:43:32.314] [INFO] console - Express server listening on port 3000
+[2017-04-06 17:43:32.484] [INFO] console - db connected :yuantu
+[2017-04-06 17:43:37.901] [INFO] console - 验证是否登录:
+[2017-04-06 17:43:38.494] [INFO] console - 验证是否登录:
+[2017-04-06 17:43:38.494] [INFO] console - getTravelInfo
+[2017-04-06 17:43:38.494] [INFO] console - session:
+[2017-04-06 17:43:38.494] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: { name: 'iceyu', passWord: 'yt_1234567' } }
+[2017-04-06 17:43:40.209] [INFO] console - 验证是否登录:
+[2017-04-06 17:43:40.210] [INFO] console - getActivityList
+[2017-04-06 17:43:40.212] [INFO] console - session:
+[2017-04-06 17:43:40.214] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: { name: 'iceyu', passWord: 'yt_1234567' } }
+[2017-04-06 17:43:45.118] [INFO] console - 验证是否登录:
+[2017-04-06 17:43:45.118] [INFO] console - getTravelInfo
+[2017-04-06 17:43:45.118] [INFO] console - session:
+[2017-04-06 17:43:45.118] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: { name: 'iceyu', passWord: 'yt_1234567' } }
+[2017-04-06 17:43:50.315] [INFO] console - 验证是否登录:
+[2017-04-06 17:43:50.315] [INFO] console - getTravelInfo
+[2017-04-06 17:43:50.316] [INFO] console - session:
+[2017-04-06 17:43:50.316] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: { name: 'iceyu', passWord: 'yt_1234567' } }
+[2017-04-06 17:43:51.989] [INFO] console - 验证是否登录:
+[2017-04-06 17:43:51.989] [INFO] console - getActivityList
+[2017-04-06 17:43:51.989] [INFO] console - session:
+[2017-04-06 17:43:51.990] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: { name: 'iceyu', passWord: 'yt_1234567' } }
+[2017-04-06 17:43:56.283] [INFO] console - 验证是否登录:
+[2017-04-06 17:43:56.283] [INFO] console - getUserList
+[2017-04-06 17:43:56.284] [INFO] console - session:
+[2017-04-06 17:43:56.284] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: { name: 'iceyu', passWord: 'yt_1234567' } }
+[2017-04-06 17:43:57.908] [INFO] console - 验证是否登录:
+[2017-04-06 17:43:57.908] [INFO] console - getAllOrdersList
+[2017-04-06 17:43:57.908] [INFO] console - session:
+[2017-04-06 17:43:57.909] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: { name: 'iceyu', passWord: 'yt_1234567' } }
+[2017-04-06 17:44:00.130] [INFO] console - 验证是否登录:
+[2017-04-06 17:44:00.130] [INFO] console - goodsList
+[2017-04-06 17:44:00.131] [INFO] console - session:
+[2017-04-06 17:44:00.131] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: { name: 'iceyu', passWord: 'yt_1234567' } }
+[2017-04-06 17:44:01.246] [INFO] console - 验证是否登录:
+[2017-04-06 17:44:01.247] [INFO] console - getGuideList
+[2017-04-06 17:44:01.247] [INFO] console - session:
+[2017-04-06 17:44:01.247] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: { name: 'iceyu', passWord: 'yt_1234567' } }
+[2017-04-06 17:44:03.590] [INFO] console - 验证是否登录:
+[2017-04-06 17:44:03.590] [INFO] console - getTravelInfo
+[2017-04-06 17:44:03.590] [INFO] console - session:
+[2017-04-06 17:44:03.590] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: { name: 'iceyu', passWord: 'yt_1234567' } }
+[2017-04-06 17:44:05.487] [INFO] console - 验证是否登录:
+[2017-04-06 17:44:05.487] [INFO] console - getActivityList
+[2017-04-06 17:44:05.488] [INFO] console - session:
+[2017-04-06 17:44:05.490] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: { name: 'iceyu', passWord: 'yt_1234567' } }
+[2017-04-07 10:15:20.023] [INFO] console - succeed load plugin:  activity.js
+succeed load plugin:  index.js
+
+[2017-04-07 10:15:20.033] [INFO] console - Express server listening on port 3000
+[2017-04-07 10:15:20.166] [INFO] console - db connected :yuantu
+[2017-04-07 10:15:25.989] [INFO] console - 验证是否登录:
+[2017-04-07 10:15:25.990] [INFO] console - getActivityList
+[2017-04-07 10:15:56.715] [INFO] console - 验证是否登录:
+[2017-04-07 10:15:57.226] [INFO] console - 验证是否登录:
+[2017-04-07 10:15:57.227] [INFO] console - getTravelInfo
+[2017-04-07 10:16:00.491] [INFO] console - 验证是否登录:
+[2017-04-07 10:16:00.725] [INFO] console - 验证是否登录:
+[2017-04-07 10:16:00.726] [INFO] console - getTravelInfo
+[2017-04-07 10:16:01.494] [INFO] console - 验证是否登录:
+[2017-04-07 10:16:01.715] [INFO] console - 验证是否登录:
+[2017-04-07 10:16:01.715] [INFO] console - getTravelInfo
+[2017-04-07 10:16:02.306] [INFO] console - 验证是否登录:
+[2017-04-07 10:16:02.539] [INFO] console - 验证是否登录:
+[2017-04-07 10:16:02.539] [INFO] console - getTravelInfo
+[2017-04-07 10:16:03.159] [INFO] console - 验证是否登录:
+[2017-04-07 10:16:03.391] [INFO] console - 验证是否登录:
+[2017-04-07 10:16:03.391] [INFO] console - getTravelInfo
+[2017-04-07 10:16:04.054] [INFO] console - 验证是否登录:
+[2017-04-07 10:16:04.264] [INFO] console - 验证是否登录:
+[2017-04-07 10:16:04.264] [INFO] console - getTravelInfo
+[2017-04-07 10:16:04.786] [INFO] console - 验证是否登录:
+[2017-04-07 10:16:04.996] [INFO] console - 验证是否登录:
+[2017-04-07 10:16:04.996] [INFO] console - getTravelInfo
+[2017-04-07 10:16:05.406] [INFO] console - 验证是否登录:
+[2017-04-07 10:16:05.637] [INFO] console - 验证是否登录:
+[2017-04-07 10:16:05.637] [INFO] console - getTravelInfo
+[2017-04-07 10:16:06.058] [INFO] console - 验证是否登录:
+[2017-04-07 10:16:06.267] [INFO] console - 验证是否登录:
+[2017-04-07 10:16:06.267] [INFO] console - getTravelInfo
+[2017-04-07 10:16:06.700] [INFO] console - 验证是否登录:
+[2017-04-07 10:16:06.944] [INFO] console - 验证是否登录:
+[2017-04-07 10:16:06.944] [INFO] console - getTravelInfo
+[2017-04-07 10:16:07.703] [INFO] console - 验证是否登录:
+[2017-04-07 10:16:07.911] [INFO] console - 验证是否登录:
+[2017-04-07 10:16:07.911] [INFO] console - getTravelInfo
+[2017-04-07 10:16:22.291] [INFO] console - 验证是否登录:
+[2017-04-07 10:16:22.597] [INFO] console - 验证是否登录:
+[2017-04-07 10:16:22.598] [INFO] console - getTravelInfo
+[2017-04-07 10:16:30.692] [INFO] console - 验证是否登录:
+[2017-04-07 10:16:30.971] [INFO] console - 验证是否登录:
+[2017-04-07 10:16:30.971] [INFO] console - getTravelInfo
+[2017-04-07 10:16:31.771] [INFO] console - 验证是否登录:
+[2017-04-07 10:16:32.137] [INFO] console - 验证是否登录:
+[2017-04-07 10:16:32.137] [INFO] console - getTravelInfo
+[2017-04-07 10:16:32.638] [INFO] console - 验证是否登录:
+[2017-04-07 10:16:32.878] [INFO] console - 验证是否登录:
+[2017-04-07 10:16:32.878] [INFO] console - getTravelInfo
+[2017-04-07 10:16:42.241] [INFO] console - 验证是否登录:
+[2017-04-07 10:16:42.491] [INFO] console - 验证是否登录:
+[2017-04-07 10:16:42.491] [INFO] console - getTravelInfo
+[2017-04-07 10:16:43.178] [INFO] console - 验证是否登录:
+[2017-04-07 10:16:43.413] [INFO] console - 验证是否登录:
+[2017-04-07 10:16:43.413] [INFO] console - getTravelInfo
+[2017-04-07 10:20:57.490] [INFO] console - succeed load plugin:  activity.js
+succeed load plugin:  index.js
+
+[2017-04-07 10:20:57.503] [INFO] console - Express server listening on port 3000
+[2017-04-07 10:20:57.637] [INFO] console - db connected :yuantu
+[2017-04-07 10:21:03.508] [INFO] console - 验证是否登录:
+[2017-04-07 10:21:03.974] [INFO] console - 验证是否登录:
+[2017-04-07 10:21:03.975] [INFO] console - getTravelInfo
+[2017-04-07 10:21:05.915] [INFO] console - 验证是否登录:
+[2017-04-07 10:21:05.915] [INFO] console - getTravelInfo
+[2017-04-07 10:21:07.029] [INFO] console - 验证是否登录:
+[2017-04-07 10:21:07.029] [INFO] console - getActivityList
+[2017-04-07 10:21:32.287] [INFO] console - 验证是否登录:
+[2017-04-07 10:21:32.287] [INFO] console - getActivityList
+[2017-04-07 10:24:16.964] [INFO] console - succeed load plugin:  activity.js
+succeed load plugin:  index.js
+
+[2017-04-07 10:24:16.986] [INFO] console - Express server listening on port 3000
+[2017-04-07 10:24:17.122] [INFO] console - db connected :yuantu
+[2017-04-07 10:24:35.635] [INFO] console - 验证是否登录:
+[2017-04-07 10:24:36.116] [INFO] console - 验证是否登录:
+[2017-04-07 10:24:36.117] [INFO] console - getTravelInfo
+[2017-04-07 10:24:42.131] [INFO] console - 验证是否登录:
+[2017-04-07 10:24:42.131] [INFO] console - getActivityList
+[2017-04-07 10:24:47.614] [INFO] console - 验证是否登录:
+[2017-04-07 10:24:47.614] [INFO] console - getUserList
+[2017-04-07 10:24:56.011] [INFO] console - 验证是否登录:
+[2017-04-07 10:24:56.011] [INFO] console - getAllOrdersList
+[2017-04-07 10:25:56.383] [INFO] console - succeed load plugin:  activity.js
+succeed load plugin:  index.js
+
+[2017-04-07 10:25:56.395] [INFO] console - Express server listening on port 3000
+[2017-04-07 10:25:56.528] [INFO] console - db connected :yuantu
+[2017-04-07 10:26:05.471] [INFO] console - 验证是否登录:
+[2017-04-07 10:26:05.858] [INFO] console - 验证是否登录:
+[2017-04-07 10:26:05.858] [INFO] console - getTravelInfo
+[2017-04-07 10:26:09.321] [INFO] console - 验证是否登录:
+[2017-04-07 10:26:09.321] [INFO] console - getUserList
+[2017-04-07 10:26:10.762] [INFO] console - 验证是否登录:
+[2017-04-07 10:26:10.763] [INFO] console - getAllOrdersList
+[2017-04-07 10:26:17.243] [INFO] console - 验证是否登录:
+[2017-04-07 10:26:17.243] [INFO] console - getAllOrdersList
+[2017-04-07 10:26:18.979] [INFO] console - 验证是否登录:
+[2017-04-07 10:26:18.979] [INFO] console - goodsList
+[2017-04-07 10:26:20.236] [INFO] console - 验证是否登录:
+[2017-04-07 10:26:20.236] [INFO] console - getGuideList
+[2017-04-07 10:26:21.347] [INFO] console - 验证是否登录:
+[2017-04-07 10:26:21.347] [INFO] console - getActivityList
+[2017-04-07 10:26:25.593] [INFO] console - 验证是否登录:
+[2017-04-07 10:26:25.593] [INFO] console - getTravelInfo
+[2017-04-07 10:26:26.926] [INFO] console - 验证是否登录:
+[2017-04-07 10:26:26.927] [INFO] console - getUserList
+[2017-04-07 10:26:28.203] [INFO] console - 验证是否登录:
+[2017-04-07 10:26:28.203] [INFO] console - getUserList
+[2017-04-07 10:26:35.198] [INFO] console - 验证是否登录:
+[2017-04-07 10:26:35.198] [INFO] console - getUserList
+[2017-04-07 10:26:36.839] [INFO] console - 验证是否登录:
+[2017-04-07 10:26:36.839] [INFO] console - ordersList
+[2017-04-07 10:26:36.839] [INFO] console - { userId: '1' }
+[2017-04-07 10:26:36.855] [INFO] console - 验证是否登录:
+[2017-04-07 10:26:36.856] [INFO] console - travelsList
+[2017-04-07 10:26:36.863] [INFO] console - 验证是否登录:
+[2017-04-07 10:26:36.864] [INFO] console - contactsList
+[2017-04-07 10:26:41.688] [INFO] console - 验证是否登录:
+[2017-04-07 10:26:41.689] [INFO] console - ordersList
+[2017-04-07 10:26:41.689] [INFO] console - { userId: '19' }
+[2017-04-07 10:26:41.704] [INFO] console - 验证是否登录:
+[2017-04-07 10:26:41.704] [INFO] console - travelsList
+[2017-04-07 10:26:41.710] [INFO] console - 验证是否登录:
+[2017-04-07 10:26:41.710] [INFO] console - contactsList
+[2017-04-07 10:26:43.098] [INFO] console - 验证是否登录:
+[2017-04-07 10:26:43.098] [INFO] console - getOrdersInfo
+[2017-04-07 10:26:45.374] [INFO] console - 验证是否登录:
+[2017-04-07 10:26:45.374] [INFO] console - ordersList
+[2017-04-07 10:26:45.374] [INFO] console - { userId: '19' }
+[2017-04-07 10:26:45.387] [INFO] console - 验证是否登录:
+[2017-04-07 10:26:45.387] [INFO] console - travelsList
+[2017-04-07 10:26:45.393] [INFO] console - 验证是否登录:
+[2017-04-07 10:26:45.393] [INFO] console - contactsList
+[2017-04-07 10:27:00.698] [INFO] console - 验证是否登录:
+[2017-04-07 10:27:00.699] [INFO] console - getUserList
+[2017-04-07 11:34:16.850] [INFO] console - succeed load plugin:  activity.js
+succeed load plugin:  index.js
+
+[2017-04-07 11:34:16.860] [INFO] console - Express server listening on port 3000
+[2017-04-07 11:34:17.036] [INFO] console - db connected :yuantu
+[2017-04-07 11:34:49.893] [INFO] console - 验证是否登录:
+[2017-04-07 11:34:49.894] [INFO] console - getActivityList
+[2017-04-07 11:34:51.514] [INFO] console - 验证是否登录:
+[2017-04-07 11:34:52.009] [INFO] console - 验证是否登录:
+[2017-04-07 11:34:52.009] [INFO] console - getTravelInfo
+[2017-04-07 11:34:53.777] [INFO] console - 验证是否登录:
+[2017-04-07 11:34:53.778] [INFO] console - getActivityList
+[2017-04-07 11:35:02.248] [INFO] console - 验证是否登录:
+[2017-04-07 11:35:02.249] [INFO] console - getActivityList
+[2017-04-07 11:35:03.982] [INFO] console - 验证是否登录:
+[2017-04-07 11:35:04.419] [INFO] console - 验证是否登录:
+[2017-04-07 11:35:04.420] [INFO] console - getTravelInfo
+[2017-04-07 11:35:05.719] [INFO] console - 验证是否登录:
+[2017-04-07 11:35:05.719] [INFO] console - getActivityList
+[2017-04-07 11:35:22.350] [INFO] console - 验证是否登录:
+[2017-04-07 11:35:22.350] [INFO] console - getActivityList
+[2017-04-07 11:46:25.993] [INFO] console - 验证是否登录:
+[2017-04-07 11:46:25.994] [INFO] console - getActivityList
+[2017-04-07 11:46:33.186] [INFO] console - 验证是否登录:
+[2017-04-07 11:46:33.186] [INFO] console - getActivityList
+[2017-04-07 11:46:39.830] [INFO] console - 验证是否登录:
+[2017-04-07 11:46:39.831] [INFO] console - getTravelInfo
+[2017-04-07 11:46:42.554] [INFO] console - 验证是否登录:
+[2017-04-07 11:46:42.554] [INFO] console - getTravelInfo
+[2017-04-07 11:47:02.003] [INFO] console - 验证是否登录:
+[2017-04-07 11:47:02.003] [INFO] console - getTravelInfo
+[2017-04-07 11:47:29.415] [INFO] console - 验证是否登录:
+[2017-04-07 11:47:29.415] [INFO] console - getTravelInfo
+[2017-04-07 11:49:01.097] [INFO] console - 验证是否登录:
+[2017-04-07 11:49:01.098] [INFO] console - getActivityList
+[2017-04-07 11:49:03.477] [INFO] console - 验证是否登录:
+[2017-04-07 11:49:03.832] [INFO] console - 验证是否登录:
+[2017-04-07 11:49:03.833] [INFO] console - getTravelInfo
+[2017-04-07 11:49:15.880] [INFO] console - 验证是否登录:
+[2017-04-07 11:49:15.880] [INFO] console - getActivityList
+[2017-04-07 11:50:45.337] [INFO] console - 验证是否登录:
+[2017-04-07 11:50:45.337] [INFO] console - getActivityList
+[2017-04-07 11:50:48.242] [INFO] console - 验证是否登录:
+[2017-04-07 11:50:48.242] [INFO] console - getActivityList
+[2017-04-07 11:50:51.080] [INFO] console - 验证是否登录:
+[2017-04-07 11:50:51.080] [INFO] console - getActivityList
+[2017-04-07 11:50:59.950] [INFO] console - 验证是否登录:
+[2017-04-07 11:50:59.950] [INFO] console - getActivityList
+[2017-04-07 11:51:13.793] [INFO] console - 验证是否登录:
+[2017-04-07 11:51:13.794] [INFO] console - getActivityList
+[2017-04-07 11:52:11.355] [INFO] console - 验证是否登录:
+[2017-04-07 11:52:11.355] [INFO] console - getActivityList
+[2017-04-07 11:56:10.889] [INFO] console - 验证是否登录:
+[2017-04-07 11:56:10.889] [INFO] console - getActivityList
+[2017-04-07 11:56:12.841] [INFO] console - 验证是否登录:
+[2017-04-07 11:56:12.841] [INFO] console - getActivityList
+[2017-04-07 11:56:55.493] [INFO] console - 验证是否登录:
+[2017-04-07 11:56:55.493] [INFO] console - getActivityList
+[2017-04-07 11:57:13.689] [INFO] console - 验证是否登录:
+[2017-04-07 11:57:13.689] [INFO] console - getActivityList
+[2017-04-07 11:59:38.192] [INFO] console - 验证是否登录:
+[2017-04-07 11:59:38.192] [INFO] console - getActivityList
+[2017-04-07 12:00:56.133] [INFO] console - 验证是否登录:
+[2017-04-07 12:00:56.134] [INFO] console - getActivityList
+[2017-04-07 12:01:24.349] [INFO] console - 验证是否登录:
+[2017-04-07 12:01:24.349] [INFO] console - getActivityList
+[2017-04-07 12:01:30.880] [INFO] console - 验证是否登录:
+[2017-04-07 12:01:30.880] [INFO] console - getActivityList
+[2017-04-07 12:02:02.854] [INFO] console - 验证是否登录:
+[2017-04-07 12:02:02.854] [INFO] console - getTravelInfo
+[2017-04-07 12:02:04.060] [INFO] console - 验证是否登录:
+[2017-04-07 12:02:04.060] [INFO] console - getTravelInfo
+[2017-04-07 12:02:05.728] [INFO] console - 验证是否登录:
+[2017-04-07 12:02:05.729] [INFO] console - getTravelInfo
+[2017-04-07 12:02:07.350] [INFO] console - 验证是否登录:
+[2017-04-07 12:02:07.350] [INFO] console - getArticleInfo
+[2017-04-07 12:03:57.908] [INFO] console - 验证是否登录:
+[2017-04-07 12:03:57.908] [INFO] console - getArticleInfo
+[2017-04-07 12:03:59.527] [INFO] console - 验证是否登录:
+[2017-04-07 12:03:59.528] [INFO] console - getActivityList
+[2017-04-07 12:04:04.590] [INFO] console - 验证是否登录:
+[2017-04-07 12:04:04.590] [INFO] console - getActivityList
+[2017-04-07 12:04:33.484] [INFO] console - 验证是否登录:
+[2017-04-07 12:04:33.484] [INFO] console - getActivityList
+[2017-04-07 12:04:47.769] [INFO] console - 验证是否登录:
+[2017-04-07 12:04:47.769] [INFO] console - getActivityInfo
+[2017-04-07 12:04:50.506] [INFO] console - 验证是否登录:
+[2017-04-07 12:04:50.506] [INFO] console - getUserList
+[2017-04-07 12:04:52.852] [INFO] console - 验证是否登录:
+[2017-04-07 12:04:52.852] [INFO] console - ordersList
+[2017-04-07 12:04:52.852] [INFO] console - { userId: '1' }
+[2017-04-07 12:04:52.873] [INFO] console - 验证是否登录:
+[2017-04-07 12:04:52.873] [INFO] console - travelsList
+[2017-04-07 12:04:52.881] [INFO] console - 验证是否登录:
+[2017-04-07 12:04:52.881] [INFO] console - contactsList
+[2017-04-07 12:04:57.324] [INFO] console - 验证是否登录:
+[2017-04-07 12:04:57.324] [INFO] console - getAllOrdersList
+[2017-04-07 12:05:05.970] [INFO] console - 验证是否登录:
+[2017-04-07 12:05:05.970] [INFO] console - getAllOrdersList
+[2017-04-07 12:05:07.394] [INFO] console - 验证是否登录:
+[2017-04-07 12:05:07.394] [INFO] console - getTravelInfo
+[2017-04-07 12:05:08.533] [INFO] console - 验证是否登录:
+[2017-04-07 12:05:08.533] [INFO] console - getActivityList
+[2017-04-07 13:48:09.434] [INFO] console - 验证是否登录:
+[2017-04-07 13:48:09.434] [INFO] console - getTravelInfo
+[2017-04-07 13:48:14.072] [INFO] console - 验证是否登录:
+[2017-04-07 13:48:14.072] [INFO] console - deleteArticle
+[2017-04-07 13:48:16.472] [INFO] console - 验证是否登录:
+[2017-04-07 13:48:16.473] [INFO] console - getTravelInfo
+[2017-04-07 13:48:20.695] [INFO] console - 验证是否登录:
+[2017-04-07 13:48:20.695] [INFO] console - getArticleInfo
+[2017-04-07 15:50:38.114] [INFO] console - succeed load plugin:  activity.js
+succeed load plugin:  index.js
+
+[2017-04-07 15:50:38.124] [INFO] console - Express server listening on port 3000
+[2017-04-07 15:50:38.300] [INFO] console - db connected :yuantu
+[2017-04-07 15:50:40.479] [INFO] console - 验证是否登录:
+[2017-04-07 15:50:40.480] [INFO] console - getTravelInfo
+[2017-04-07 15:50:42.241] [INFO] console - 验证是否登录:
+[2017-04-07 15:50:43.997] [INFO] console - 验证是否登录:
+[2017-04-07 16:01:30.414] [INFO] console - 验证是否登录:
+[2017-04-07 16:01:30.802] [INFO] console - 验证是否登录:
+[2017-04-07 16:01:30.802] [INFO] console - getTravelInfo
+[2017-04-07 16:04:41.869] [INFO] console - 验证是否登录:
+[2017-04-07 16:04:41.869] [INFO] console - getTravelInfo
+[2017-04-07 16:14:15.246] [INFO] console - 验证是否登录:
+[2017-04-07 16:14:15.246] [INFO] console - getTravelInfo
+[2017-04-07 16:20:46.157] [INFO] console - 验证是否登录:
+[2017-04-07 16:20:46.157] [INFO] console - getTravelInfo
+[2017-04-07 16:24:29.787] [INFO] console - succeed load plugin:  activity.js
+succeed load plugin:  index.js
+
+[2017-04-07 16:24:29.800] [INFO] console - Express server listening on port 3000
+[2017-04-07 16:24:29.979] [INFO] console - db connected :yuantu
+[2017-04-07 16:24:35.677] [INFO] console - 验证是否登录:
+[2017-04-07 16:24:35.678] [INFO] console - getTravelInfo
+[2017-04-07 16:24:39.936] [INFO] console - 验证是否登录:
+[2017-04-07 16:24:40.504] [INFO] console - 验证是否登录:
+[2017-04-07 16:24:40.504] [INFO] console - getTravelInfo
+[2017-04-07 16:24:46.450] [INFO] console - 验证是否登录:
+[2017-04-07 16:24:46.451] [INFO] console - logout
+[2017-04-07 16:24:56.819] [INFO] console - 验证是否登录:
+[2017-04-07 16:24:56.819] [INFO] console - getTravelInfo
+[2017-04-07 16:25:02.025] [INFO] console - 验证是否登录:
+[2017-04-07 16:25:02.554] [INFO] console - 验证是否登录:
+[2017-04-07 16:25:02.554] [INFO] console - getTravelInfo
+[2017-04-07 16:25:04.820] [INFO] console - 验证是否登录:
+[2017-04-07 16:25:04.821] [INFO] console - logout
+[2017-04-07 16:30:03.031] [INFO] console - 验证是否登录:
+[2017-04-07 16:30:03.031] [INFO] console - getTravelInfo
+[2017-04-07 16:30:05.931] [INFO] console - 验证是否登录:
+[2017-04-07 16:30:06.338] [INFO] console - 验证是否登录:
+[2017-04-07 16:30:06.339] [INFO] console - getTravelInfo
+[2017-04-07 16:30:09.832] [INFO] console - 验证是否登录:
+[2017-04-07 16:30:09.832] [INFO] console - logout
+[2017-04-07 16:31:26.555] [INFO] console - 验证是否登录:
+[2017-04-07 16:31:26.982] [INFO] console - 验证是否登录:
+[2017-04-07 16:31:26.982] [INFO] console - getTravelInfo
+[2017-04-07 16:31:30.399] [INFO] console - 验证是否登录:
+[2017-04-07 16:31:30.399] [INFO] console - logout
+[2017-04-07 16:38:33.469] [INFO] console - succeed load plugin:  activity.js
+succeed load plugin:  index.js
+
+[2017-04-07 16:38:33.480] [INFO] console - Express server listening on port 3000
+[2017-04-07 16:38:34.661] [INFO] console - db connected :yuantu
+[2017-04-07 16:39:05.972] [INFO] console - 验证是否登录:
+[2017-04-07 16:39:06.564] [INFO] console - 验证是否登录:
+[2017-04-07 16:39:06.565] [INFO] console - getTravelInfo
+[2017-04-07 16:39:09.464] [INFO] console - 验证是否登录:
+[2017-04-07 16:39:09.465] [INFO] console - exitLogin
+[2017-04-07 16:39:09.465] [INFO] console - logoutlogoutlogout
+[2017-04-07 16:44:07.466] [INFO] console - succeed load plugin:  activity.js
+succeed load plugin:  index.js
+
+[2017-04-07 16:44:07.477] [INFO] console - Express server listening on port 3000
+[2017-04-07 16:44:07.637] [INFO] console - db connected :yuantu
+[2017-04-07 16:44:17.394] [INFO] console - 验证是否登录:
+[2017-04-07 16:44:17.396] [INFO] console - 请求：：：
+[2017-04-07 16:44:17.397] [INFO] console - Index {}
+[2017-04-07 16:44:18.055] [INFO] console - 验证是否登录:
+[2017-04-07 16:44:18.055] [INFO] console - getTravelInfo
+[2017-04-07 16:44:18.055] [INFO] console - 请求：：：
+[2017-04-07 16:44:18.056] [INFO] console - Index {}
+[2017-04-07 16:44:26.766] [INFO] console - 验证是否登录:
+[2017-04-07 16:44:26.766] [INFO] console - exitLogin
+[2017-04-07 16:44:26.767] [INFO] console - 请求：：：
+[2017-04-07 16:44:26.767] [INFO] console - Index {}
+[2017-04-07 16:44:26.769] [INFO] console - logoutlogoutlogout
+[2017-04-07 16:47:51.827] [INFO] console - 验证是否登录:
+[2017-04-07 16:47:51.827] [INFO] console - 请求：：：
+[2017-04-07 16:47:51.827] [INFO] console - Index {}
+[2017-04-07 16:47:52.295] [INFO] console - 验证是否登录:
+[2017-04-07 16:47:52.295] [INFO] console - getTravelInfo
+[2017-04-07 16:47:52.296] [INFO] console - 请求：：：
+[2017-04-07 16:47:52.296] [INFO] console - Index {}
+[2017-04-07 16:48:03.702] [INFO] console - 验证是否登录:
+[2017-04-07 16:48:03.703] [INFO] console - getAllOrdersList
+[2017-04-07 16:48:03.703] [INFO] console - 请求：：：
+[2017-04-07 16:48:03.703] [INFO] console - Index {}
+[2017-04-07 16:52:27.754] [INFO] console - succeed load plugin:  activity.js
+succeed load plugin:  index.js
+
+[2017-04-07 16:52:27.765] [INFO] console - Express server listening on port 3000
+[2017-04-07 16:52:27.961] [INFO] console - db connected :yuantu
+[2017-04-07 16:52:30.693] [INFO] console - 验证是否登录:
+[2017-04-07 16:52:30.694] [INFO] console - getAllOrdersList
+[2017-04-07 16:52:41.100] [INFO] console - 验证是否登录:
+[2017-04-07 16:52:41.100] [INFO] console - 请求：：：
+[2017-04-07 16:52:41.781] [INFO] console - 验证是否登录:
+[2017-04-07 16:52:41.781] [INFO] console - getTravelInfo
+[2017-04-07 16:52:41.782] [INFO] console - 请求：：：
+[2017-04-07 17:00:40.924] [INFO] console - 验证是否登录:
+[2017-04-07 17:00:40.924] [INFO] console - exitLogin
+[2017-04-07 17:00:40.924] [INFO] console - 请求：：：
+[2017-04-07 17:00:40.927] [INFO] console - logoutlogoutlogout
+[2017-04-11 11:24:44.437] [INFO] console - succeed load plugin:  activity.js
+succeed load plugin:  index.js
+
+[2017-04-11 11:24:44.447] [INFO] console - Express server listening on port 3000
+[2017-04-11 11:24:44.708] [INFO] console - db connected :yuantu
+[2017-04-11 11:29:47.840] [INFO] console - OkPacket {
+  fieldCount: 0,
+  affectedRows: 1,
+  insertId: 28,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+[2017-04-11 11:29:47.843] [INFO] console - [ { detail: '1', price: '1', activity_id: 28 } ]
+[2017-04-11 11:29:47.848] [INFO] console - OkPacket {
+  fieldCount: 0,
+  affectedRows: 1,
+  insertId: 28,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+[2017-04-11 14:27:52.913] [INFO] console - OkPacket {
+  fieldCount: 0,
+  affectedRows: 1,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '(Rows matched: 1  Changed: 1  Warnings: 0',
+  protocol41: true,
+  changedRows: 1 }
+[2017-04-11 14:29:20.066] [INFO] console - OkPacket {
+  fieldCount: 0,
+  affectedRows: 1,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '(Rows matched: 1  Changed: 1  Warnings: 0',
+  protocol41: true,
+  changedRows: 1 }
+[2017-04-11 15:04:49.286] [INFO] console - succeed load plugin:  activity.js
+succeed load plugin:  index.js
+
+[2017-04-11 15:04:49.296] [INFO] console - Express server listening on port 3000
+[2017-04-11 15:04:49.469] [INFO] console - db connected :yuantu

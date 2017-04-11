@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>活动管理</title>
+    <meta name="keywords" content="Bootstrap模版,Bootstrap模版下载,Bootstrap教程,Bootstrap中文" />
+    <meta name="description" content="站长素材提供Bootstrap模版,Bootstrap教程,Bootstrap中文翻译等相关Bootstrap插件下载" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- basic styles -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/bootstrap-modal-master/css/bootstrap-modal.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+
+    <!--[if IE 7]>
+        <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css" />
+    <![endif]-->
+
+    <!-- page specific plugin styles -->
+
+    <link rel="stylesheet" href="assets/css/jquery-ui-1.10.3.custom.min.css" />
+
+    <!-- fonts -->
+
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" />
+
+    <!-- ace styles -->
+
+    <link rel="stylesheet" href="assets/css/ace.min.css" />
+    <link rel="stylesheet" href="assets/css/ace-rtl.min.css" />
+    <link rel="stylesheet" href="assets/css/ace-skins.min.css" />
+
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="assets/css/ace-ie.min.css" />
+    <![endif]-->
+
+    <!-- inline styles related to this page -->
+
+    <!-- ace settings handler -->
+
+    <script src="assets/js/ace-extra.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        .addOrMinus
+        {
+            padding-top: 5px;
+        }    
+        .addOrMinus i
+        {
+            font-size: 16px;
+            color: #438eb9;
+            margin-right: 10px;
+            cursor: pointer
+        } 
+        #pageTitle{
+            margin-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar navbar-default" id="navbar">
+        <script type="text/javascript">
+            try{ace.settings.check('navbar' , 'fixed')}catch(e){}
+        </script>
+
+        <div class="navbar-container" id="navbar-container">
+            <div class="navbar-header pull-left">
+                <a href="#" class="navbar-brand">
+                    <small>
+                        <!--<i class="icon-leaf"></i>-->
+                        <img src="images/logo.png" alt="">
+                        远徒户外
+                    </small>
+                </a>
+                <!-- /.brand -->
+            </div>
+            <!-- /.navbar-header -->
+
+            <div class="navbar-header pull-right" role="navigation">
+                <ul class="nav ace-nav">
+                    <li>
+                        <a data-toggle="dropdown" href="#" class="dropdown-toggle">
+                            <span class="user-info">
+                            </span>
+
+                            <i class="icon-caret-down"></i>
+                        </a>
+
+                        <ul class="user-menu pull-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
+                            <li id="logout">
+                                <a href="#">
+                                    <i class="icon-off"></i>
+                                    Logout
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- /.ace-nav -->
+            </div>
+            <!-- /.navbar-header -->
+        </div>
+        <!-- /.container -->
+    </div>
+
+    <div class="main-container" id="main-container">
+        <script type="text/javascript">
+            try{ace.settings.check('main-container' , 'fixed')}catch(e){}
+        </script>
+        <div class="main-container-inner">
+            <a class="menu-toggler" id="menu-toggler" href="#">
+                <span class="menu-text"></span>
+            </a>
+            <div class="sidebar" id="sidebar">
+                <script type="text/javascript">
+                    try{ace.settings.check('sidebar' , 'fixed')}catch(e){}
+                </script>
+                <ul class="nav nav-list">
+                    <li>
+                        <a href="travelManagement.html">
+                            <i class="icon-dashboard"></i>
+                            <span class="menu-text"> 游记管理 </span>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="activity.html">
+                            <i class="icon-camera"></i>
+                            <span class="menu-text"> 活动管理 </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="user.html">
+                            <i class="icon-text-width"></i>
+                            <span class="menu-text"> 用户管理 </span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="ordersList.html">
+                            <i class="icon-list"></i>
+                            <span class="menu-text"> 订单管理 </span>
+                        </a>
+                    </li>
+
+                     <li>
+                        <a href="goodsmanage.html">
+                            <i class="icon-list-alt"></i>
+                            <span class="menu-text"> 商品管理 </span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="travelGuide.html">
+                            <i class="icon-tag"></i>
+                            <span class="menu-text"> 攻略管理 </span>
+                        </a>
+                    </li>
+                </ul>
+                <!-- /.nav-list -->
+
+                <div class="sidebar-collapse" id="sidebar-collapse">
+                    <i class="icon-double-angle-left" data-icon1="icon-double-angle-left" data-icon2="icon-double-angle-right"></i>
+                </div>
+
+                <script type="text/javascript">
+                    try{ace.settings.check('sidebar' , 'collapsed')}catch(e){}
+                </script>
+            </div>
+            <div class="main-content">
+                <div class="page-content">
+                    <div class="page-header">
+                        <h1>
+                            <small>
+                                <i class="icon-arrow-left blue comeBack"></i>
+                                <span id="pageTitle"></span>
+                            </small>
+                            <button class="btn btn-primary btn-sm pull-right" id="addActivity">
+                                <i class="icon-ok"></i>
+                                提交
+                            </button>
+                            <button class="btn btn-sm pull-right" id="cancel">
+                                <i class="icon-reply"></i>
+                                取消
+                            </button>
+                        </h1>
+                    </div>
+                    <!-- /.page-header -->
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <form class="form-horizontal" id="baseInfo">
+                                <div class="form-group has-feedback col-sm-6">
+                                    <label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 活动名称 </label>
+                                    <div class="col-sm-8">
+                                        <span class="block input-icon input-icon-right">
+                                            <input type="text" class="col-xs-10 col-sm-12" required data-id="title">
+                                            <!--<i class="icon-remove-sign"></i>-->
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="form-group has-feedback col-sm-6">
+                                    <label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 活动价格 </label>
+                                    <div class="col-sm-8">
+                                        <span class="block input-icon input-icon-right">
+                                            <input type="text" class="col-xs-10 col-sm-12" required data-id="price">
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="form-group has-feedback col-sm-6">
+                                    <label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 开始时间 </label>
+                                    <div class="col-sm-8">
+                                        <span class="block input-icon input-icon-right">
+                                            <input type="text" class="col-xs-10 col-sm-12" placeholder="格式：2017-01-01 10:20" required data-id="starttime">
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="form-group has-feedback col-sm-6">
+                                    <label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 结束时间 </label>
+                                    <div class="col-sm-8">
+                                        <span class="block input-icon input-icon-right">
+                                            <input type="text" class="col-xs-10 col-sm-12" placeholder="格式：2017-01-01 10:20" required data-id="endtime">
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="form-group has-feedback col-sm-6">
+                                    <label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 人数上限 </label>
+                                    <div class="col-sm-8">
+                                        <span class="block input-icon input-icon-right">
+                                            <input type="text" class="col-xs-10 col-sm-12" required data-id="maxnum">
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="form-group has-feedback col-sm-6">
+                                    <label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 人数下限 </label>
+                                    <div class="col-sm-8">
+                                        <span class="block input-icon input-icon-right">
+                                        <input type="text" class="col-xs-10 col-sm-12" required data-id="mininum">
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="form-group has-feedback col-sm-6">
+                                    <label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 集合地点 </label>
+                                    <div class="col-sm-8">
+                                        <span class="block input-icon input-icon-right">
+                                        <input type="text" class="col-xs-10 col-sm-12" required data-id="venue">
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="form-group has-feedback col-sm-6">
+                                    <label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 活动概述 </label>
+                                    <div class="col-sm-8">
+                                        <span class="block input-icon input-icon-right">
+                                        <input type="text" class="col-xs-10 col-sm-12" maxlength="255" required data-id="summary">
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="form-group  col-sm-6">
+                                    <label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 推文链接 </label>
+                                    <div class="col-sm-8">
+                                        <span class="block input-icon input-icon-right">
+                                        <input type="text" class="col-xs-10 col-sm-12" placeholder="请输入微信公众号上面该活动的推文链接"  data-id="article_url">
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="form-group has-feedback col-sm-6">
+                                    <label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 活动状态 </label>
+                                    <div class="col-sm-8">
+                                        <select class="form-control" data-id="status">
+                                            <option value="0">即将上线</option>
+                                            <option value="1">进行中</option>
+                                            <option value="2">已下线</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group has-feedback col-sm-6">
+                                    <label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 起   点 </label>
+                                    <div class="col-sm-8">
+                                        <span class="block input-icon input-icon-right">
+                                        <input type="text" class="col-xs-10 col-sm-12" required data-id="start">
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="form-group has-feedback col-sm-6">
+                                    <label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 终   点 </label>
+                                    <div class="col-sm-8">
+                                        <span class="block input-icon input-icon-right">
+                                        <input type="text" class="col-xs-10 col-sm-12" required data-id="end">
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="form-group has-feedback col-sm-6">
+                                    <label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 缩略图</label>
+                                    <div class="col-sm-8">
+                                        <span class="block input-icon input-icon-right">
+                                        <input type="text" class="col-xs-10 col-sm-12" placeholder="请输入图片链接地址" required data-id="icon">
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="form-group has-feedback col-sm-6">
+                                    <label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 活动图1 </label>
+                                    <div class="col-sm-8">
+                                        <span class="block input-icon input-icon-right">
+                                        <input type="text" class="col-xs-10 col-sm-12" placeholder="请输入图片链接地址" required data-id="icon1">
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="form-group has-feedback col-sm-6">
+                                    <label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 活动图2 </label>
+                                    <div class="col-sm-8">
+                                        <span class="block input-icon input-icon-right">
+                                        <input type="text" class="col-xs-10 col-sm-12" placeholder="请输入图片链接地址" required data-id="icon2">
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="form-group has-feedback col-sm-6">
+                                    <label class="col-sm-2 control-label no-padding-right" for="form-field-1">活动图3</label>
+                                    <div class="col-sm-8">
+                                        <span class="block input-icon input-icon-right">
+                                            <input type="text" class="col-xs-10 col-sm-12" placeholder="请输入图片链接地址" required data-id="icon3">
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="form-group has-feedback col-sm-6">
+                                    <label class="col-sm-2 control-label no-padding-right" for="form-field-1">是否有折扣</label>
+                                    <div class="col-sm-8">
+                                        <span class="block input-icon input-icon-right">
+                                            <input type="checkbox" data-id="discount" style="margin-top:8px;">
+                                        </span>
+                                    </div>
+                                </div>
+                            </form>
+                            <!-- PAGE CONTENT ENDS -->
+                        </div>
+                        <!-- /.col -->
+                    </div>
+                    <!-- /.row -->
+                    <div class="row"  style="margin-top: 30px">
+                        <div class="col-xs-12">
+                           <div class="tabbable">
+                                <ul class="nav nav-tabs" id="myTab">
+                                    <li class="active">
+                                        <a data-toggle="tab" href="#packge">
+                                            活动套餐
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a data-toggle="tab" href="#introduce">
+                                            产品介绍
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a data-toggle="tab" href="#schedule">
+                                            行程安排
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a data-toggle="tab" href="#fee">
+                                            费用说明
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a data-toggle="tab" href="#must">
+                                            活动须知
+                                        </a>
+                                    </li>
+                                </ul>
+
+                                <div class="tab-content">
+                                    <div id="packge" class="tab-pane active">
+                                        <p style="color:#888">注：每个活动最多只能添加五个套餐</p>
+                                        <form class="form-horizontal row">
+                                            <div class="col-xs-12 eachRow">
+                                                <div class="form-group has-feedback col-sm-4">
+                                                    <div class="col-sm-12">
+                                                        <span class="block input-icon input-icon-right">
+                                                            <input type="text" class="col-xs-10 col-sm-12 packageName" placeholder="套餐名称" required>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group has-feedback col-sm-4">
+                                                    <div class="col-sm-12">
+                                                        <span class="block input-icon input-icon-right">
+                                                            <input type="text" class="col-xs-10 col-sm-12 packagePrice" placeholder="套餐价格" required>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-2 addOrMinus">
+                                                    <div class="ui-pg-div pull-left">
+                                                        <i class="ui-icon icon-plus-sign purple addPackage"></i>
+                                                    </div>
+                                                    <div class="ui-pg-div">
+                                                        <i class="ui-icon icon-minus-sign blue minusPackage hidden"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+
+                                    <div id="introduce" class="tab-pane">
+                                        <div class="wysiwyg-editor" id="editor1" data-id="introduce" data-type = "editor"></div>
+                                    </div>
+
+                                    <div id="schedule" class="tab-pane">
+                                        <div class="wysiwyg-editor" id="editor2" data-id="schedule" data-type = "editor"></div>
+                                    </div>
+                                    <div id="fee" class="tab-pane">
+                                        <div class="wysiwyg-editor" id="editor3" data-id="fee" data-type = "editor"></div>
+                                    </div>
+                                    <div id="must" class="tab-pane">
+                                        <div class="wysiwyg-editor" id="editor4" data-id="must" data-type = "editor"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.page-content -->
+            </div>
+            <!-- /.main-content -->
+        </div>
+        <!-- /.main-container-inner -->
+
+        <a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse">
+            <i class="icon-double-angle-up icon-only bigger-110"></i>
+        </a>
+    </div><!-- /.main-container -->
+
+    <!-- basic scripts -->
+
+    <!--[if !IE]> -->
+    <script type="text/javascript">
+        window.jQuery || document.write("<script src='assets/js/jquery-2.0.3.min.js'>"+"<"+"/script>");
+    </script>
+    <!-- <![endif]-->
+
+    <!--[if IE]>
+    <script type="text/javascript">
+    window.jQuery || document.write("<script src='assets/js/jquery-1.10.2.min.js'>"+"<"+"/script>");
+    </script>
+    <![endif]-->
+
+    <script type="text/javascript">
+        if("ontouchend" in document) document.write("<script src='assets/js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
+    </script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    
+    <script type="text/javascript" src="assets/bootstrap-modal-master/js/bootstrap-modal.js"></script>
+    <script type="text/javascript" src="assets/bootstrap-modal-master/js/bootstrap-modalmanager.js"></script>
+
+    <script src="assets/js/typeahead-bs2.min.js"></script>
+
+    <!-- page specific plugin scripts -->
+    <script src="assets/js/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="assets/js/jquery.ui.touch-punch.min.js"></script>
+    <script src="assets/js/markdown/markdown.min.js"></script>
+    <script src="assets/js/markdown/bootstrap-markdown.min.js"></script>
+    <script src="assets/js/jquery.hotkeys.min.js"></script>
+    <script src="assets/js/bootstrap-wysiwyg.min.js"></script>
+    <script src="assets/js/bootbox.min.js"></script>
+
+    <!-- ace scripts -->
+    <script src="assets/js/ace-elements.min.js"></script>
+    <script src="assets/js/ace.min.js"></script>
+    <script src="assets/js/layer.js"></script>
+    <script src="assets/js/jquery.cookie.js"></script>
+    <script src="assets/js/tools.js"></script>
+
+    <!-- inline scripts related to this page -->
+    <script type="text/javascript">
+    jQuery(function($)
+    {
+        var $currentPage = $(".page-content");
+        var $baseInfo = $("#baseInfo");
+        var $packge = $("#packge");
+
+        //参数 
+        var href = window.location.href.split("?")[1],type,id;
+        if(href.indexOf("&") != -1)
+        {
+            href = href.split("&");
+            type = href[0].split("=")[1];
+            id = href[1].split("=")[1];
+        }
+        else
+        {
+            type = href.split("=")[1];
+        }
+
+        //标题
+        var $pageTitle = $("#pageTitle");
+        if(type == 1 )
+        {
+            $pageTitle.text("添加活动");
+        }
+        else
+        {
+            $pageTitle.text("编辑活动");
+            getActivityInfo();
+        }
+
+        //套餐
+        $packge.on("click",".addPackage",function()
+        {
+            var $this = $(this);
+            var $form = $this.closest("form");
+            var $row = $this.closest(".eachRow");
+            if($form.find(".eachRow").length < 5)
+            {
+                $($row.prop("outerHTML")).insertAfter($row);
+            }
+            $form.find(".minusPackage").removeClass("hidden");
+            
+        })
+        .on("click",".minusPackage",function()
+        {
+            var $this = $(this);
+            var $form = $this.closest("form");
+            var $row = $this.closest(".eachRow");
+            if($form.find(".eachRow").length > 1)
+            {
+                $row.remove();
+                if($form.find(".eachRow").length == 1)
+                {
+                    $form.find(".minusPackage").addClass("hidden")
+                }
+            }
+        })
+
+        //初始化编辑器
+        $('#editor1,#editor2,#editor3,#editor4').ace_wysiwyg({
+            toolbar:
+            [
+                'font',
+                null,
+                'fontSize',
+                null,
+                {name:'bold', className:'btn-info'},
+                {name:'italic', className:'btn-info'},
+                {name:'strikethrough', className:'btn-info'},
+                {name:'underline', className:'btn-info'},
+                null,
+                {name:'insertunorderedlist', className:'btn-success'},
+                {name:'insertorderedlist', className:'btn-success'},
+                {name:'outdent', className:'btn-purple'},
+                {name:'indent', className:'btn-purple'},
+                null,
+                {name:'justifyleft', className:'btn-primary'},
+                {name:'justifycenter', className:'btn-primary'},
+                {name:'justifyright', className:'btn-primary'},
+                {name:'justifyfull', className:'btn-inverse'},
+                null,
+                {name:'createLink', className:'btn-pink'},
+                {name:'unlink', className:'btn-pink'},
+                null,
+                null,
+                null,
+                'foreColor',
+                null,
+                {name:'undo', className:'btn-grey'},
+                {name:'redo', className:'btn-grey'}
+            ],
+            'wysiwyg': {
+                fileUploadError: showErrorAlert
+            }
+        }).prev().addClass('wysiwyg-style1');
+
+        function showErrorAlert (reason, detail) {
+            var msg='';
+            if (reason==='unsupported-file-type') { msg = "Unsupported format " +detail; }
+            else {
+                console.log("error uploading file", reason, detail);
+            }
+            $('<div class="alert"> <button type="button" class="close" data-dismiss="alert">&times;</button>'+ 
+            '<strong>File upload error</strong> '+msg+' </div>').prependTo('#alerts');
+        }
+
+        //提交
+        $("#addActivity").on("click",function()
+        {
+            $baseInfo.find("input").trigger("change");
+            $packge.find("input").trigger("change");
+            
+
+            if($baseInfo.find(".has-error").length > 0)
+            {
+                return;
+            }
+            else if($packge.find(".has-error").length > 0)
+            {
+                layer.msg('请填写活动套餐信息');
+            }
+            else if($("#editor1").html().length == 0 || $("#editor2").html().length == 0 || $("#editor3").html().length == 0 || $("#editor4").html().length == 0)
+            {
+                layer.msg('产品介绍、行程安排、费用说明、活动须知为必填项');
+            }
+            else
+            {
+                var parameter = {};
+                var url;
+                parameter.info = Tools.GetData($currentPage);
+                if(id)
+                {
+                    parameter.info.id = id;
+                    url = '/views/activity/editActivity';
+                }
+                else
+                {
+                    url = '/views/activity/addActivity';
+                    
+                    //添加时间
+                    var timestamp = Date.parse(new Date()); 
+                    parameter.addtime = Tools.getDateTime(timestamp);
+                }
+
+                var package = [];
+                $.each($packge.find(".eachRow"),function()
+                {
+                    var obj = {};
+                    obj.detail = $(this).find(".packageName").val();
+                    obj.price = $(this).find(".packagePrice").val();
+                    if(id)
+                    {
+                        obj.activity_id = id;
+                    }
+                    package.push(obj);
+                })
+                parameter.package = package;
+                
+                Tools.processLoading('start');
+
+                $.ajax 
+				({
+                    type:'post',
+                    url:url,
+                    data:parameter,
+                    success: function(data)
+                    {	
+                        Tools.processLoading('end');
+                        if(data.code == 200)
+                        {
+                            layer.alert('操作成功', 
+                            {
+                                icon: 1,
+                                skin: 'layer-ext-moon',
+                                closeBtn: 0
+                            },
+                            function(){
+                                    location.href='activity.html';
+                                })
+                            }
+                        else if(data.code==400)
+                        {
+                            alert(data.info);
+                        }
+                        
+                    }
+                })
+            }
+        })
+
+        function getActivityInfo()
+        {
+            $.ajax 
+            ({
+                type:'get',
+                url:'/views/activity/getActivityInfo',
+                data:{id:id},
+                success: function(data)
+                {	
+                    Tools.SetData(data.info,$currentPage);
+
+                    //活动套餐
+                    var package = data.package;
+                    var len = package.length;
+                    $.each(package,function(i)
+                    {
+                        if(i != 0)
+                        {
+                            $packge.find(".addPackage:last").trigger("click");
+                        }
+                        $packge.find(".eachRow:last").find(".packageName").val(this.detail).end().find(".packagePrice").val(this.price)
+                    })
+                }
+            })
+        }
+    });
+    </script>
+</body>
+</html>
